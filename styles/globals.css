@@ -14,3 +14,23 @@ a {
 * {
   box-sizing: border-box;
 }
+nav {
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: flex-end;
+  border-bottom: 1px solid lightcyan;
+}
+nav a {
+  padding-left: 40px;
+  font-weight: bold;
+}
+p {
+  width: 400px;
+  height: auto;
+  background-color: lightgrey;
+  line-height: 20px;
+  margin-left: 50px;
+  padding: 30px;
+}
